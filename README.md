@@ -15,7 +15,7 @@ Main sub parts that need too be accomplished
 - [ ] Sensor Fusion
 - [ ] LSD slam Py
 - [ ] Particle filter image scan matching
-- [ ] Semantic Loop Closure 
+- [ ] Semantic Segementaion Loop Closure 
 - [ ] Drone/ Flight Controller
 - [ ] IOS Mobile Device Controller
 
