@@ -8,12 +8,38 @@
 - GPS
 - Accelerometer
 
-### Todo
+
+
+## Todo
 Main sub parts that need too be accomplished
 - [ ] Sensor Fusion
-- [x] #739
 - [ ] LSD slam Py
 - [ ] Particle filter image scan matching
 - [ ] Semantic Loop Closure 
-- [ ] Drone Controller
+- [ ] Drone/ Flight Controller
 - [ ] IOS Mobile Device Controller
+
+## SetUp
+#### Create Virtual environment
+```
+python3 -m venv venv
+```
+
+#### Add g2o-py binding
+```
+git clone https://github.com/uoip/g2opy.git
+cd g2opy
+mkdir build
+cd build
+cmake ..
+make -j8
+cd ..
+python setup.py install
+```
+
+#### Other libtraries
+```
+pip install requirements.txt
+```
+
+
