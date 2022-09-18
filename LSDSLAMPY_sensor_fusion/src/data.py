@@ -3,17 +3,26 @@ class Data:
     def __init__(self) -> None:
         self.id = None
         self.width = None; self.height = None
-        self.K = [0] * 5 ; self.Kinv = [0] * 5
+        self.K = [ np.ndarray ] * 5 ; self.KInv = [0] * 5
         self.fx = [0] * 5; self.fy = [0] * 5; self.cx = [0] * 5; self.cy = [0] * 5
-        self.fxinv = None; self.fyinv = None; self.cxinv = None; self.cyinv = None
+        self.fxInv = None; self.fyInv = None; self.cxInv = None; self.cyInv = None
         self.timestamp = None
-        self.image = None
-        self.imageValid : bool = None
-        self.gradients = None 
-        self.gradientsValid : bool = None
-        self.gradients = None
-        self.gradients = None 
-        self.gradients = None
-        self.gradients = None
 
+       
+
+        self.imageValid : bool = [False] * 5
+        self.gradientsValid : bool = [False] * 5
+        self.maxGradientsValid = [False] *5
+        self.idepthValid = [False] *5
+        self.idepthVarValid = [False] * 5
+
+
+        self.image = [0] * 5
+        self.gradients = [0] * 5 
+       
+        self.hasIDepthBeenSet = None
+        self.maxGradients = [0.0] * 5
+        self.idepth = [0.0] * 5
+        self.idepthVar = [0.0] * 5
+        self.reActivationDataValid : bool 
         self.fx = None
