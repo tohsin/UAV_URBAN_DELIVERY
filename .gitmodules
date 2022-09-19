@@ -1,0 +1,3 @@
+[submodule "LSDSLAMPY_sensor_fusion/Edge-LSD-SLAM-PY-LIGHT"]
+	path = LSDSLAMPY_sensor_fusion/Edge-LSD-SLAM-PY-LIGHT
+	url = https://github.com/tohsin/Edge-LSD-SLAM-PY-LIGHT.git
