@@ -1,3 +1,9 @@
 [submodule "LSDSLAMPY_sensor_fusion/Edge-LSD-SLAM-PY-LIGHT"]
 	path = LSDSLAMPY_sensor_fusion/Edge-LSD-SLAM-PY-LIGHT
 	url = https://github.com/tohsin/Edge-LSD-SLAM-PY-LIGHT.git
+[submodule "useful_programs/PythonRobotics"]
+	path = useful_programs/PythonRobotics
+	url = https://github.com/AtsushiSakai/PythonRobotics.git
+[submodule "useful_programs/lsd_slam"]
+	path = useful_programs/lsd_slam
+	url = https://github.com/tum-vision/lsd_slam.git
