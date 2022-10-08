@@ -27,7 +27,7 @@ python3 -m venv venv
 
 #### Add g2o-py binding
 ```
-git clone https://github.com/uoip/g2opy.git
+git clone https://github.com/tohsin/g2opy.git
 cd g2opy
 mkdir build
 cd build
